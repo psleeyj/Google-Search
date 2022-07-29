@@ -11,6 +11,7 @@
 		D69584BF289313C400775641 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69584BE289313C400775641 /* ContentView.swift */; };
 		D69584C1289313C500775641 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69584C0289313C500775641 /* Assets.xcassets */; };
 		D69584C4289313C500775641 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69584C3289313C500775641 /* Preview Assets.xcassets */; };
+		D69584CD28946F6600775641 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D69584CC28946F6600775641 /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D69584BE289313C400775641 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D69584C0289313C500775641 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D69584C3289313C500775641 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D69584CC28946F6600775641 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D69584BC289313C400775641 /* Google_SearchApp.swift */,
 				D69584BE289313C400775641 /* ContentView.swift */,
+				D69584CC28946F6600775641 /* SwiftyJSON.swift */,
 				D69584C0289313C500775641 /* Assets.xcassets */,
 				D69584C2289313C500775641 /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69584CD28946F6600775641 /* SwiftyJSON.swift in Sources */,
 				D69584BF289313C400775641 /* ContentView.swift in Sources */,
 				D69584BD289313C400775641 /* Google_SearchApp.swift in Sources */,
 			);
