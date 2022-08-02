@@ -29,9 +29,10 @@ struct ContentView: View {
                   dismissButton: .default(Text("OK")))
         })
     }
+    
     func queryAPI() {
-        let apiKey = "?rapidapi-key = 758f477fdcmsh2b78f5fdd0bf86bp1ccc3fjsnbd45cb1f4332"
-        let query = "https://google-search3.p.rapidapi.com/api/v1/search/q=corn+dog&num=100?rapidapi-key="
+        let apiKey = "?rapidapi-key=758f477fdcmsh2b78f5fdd0bf86bp1ccc3fjsnbd45cb1f4332"
+        let query = "https://google-search3.p.rapidapi.com/api/v1/search/q=corn+dog&num=100\(apiKey)"
         if let url = URL(string: query) {
             if let data = try? Data(contentsOf: url) {
                 let json = try! JSON(data: data)
